@@ -1,0 +1,2 @@
+geth --datadir node2 --networkid 3377 --port 11112 --nodiscover console  
+geth --datadir node1 --networkid 3377 --port 11111 --nodiscover console

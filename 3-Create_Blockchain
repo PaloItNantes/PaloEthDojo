@@ -1,0 +1,2 @@
+geth --datadir node1 init PaloEthDojo.json
+geth --datadir node2 init PaloEthDojo.json

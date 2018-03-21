@@ -1,0 +1,10 @@
+1 - Créer 2 dossier 
+- node1
+- node2
+
+2 - Créer un user pour chacun de ces noeuds :
+geth --datadir node1 account new 
+geth --datadir node2 account new 
+
+2 - On peut tester ensuite 
+geth account list
