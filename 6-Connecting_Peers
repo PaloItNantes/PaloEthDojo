@@ -1,0 +1,13 @@
+admin.peers
+admin.nodeInfo.enode
+admin.addPeer("enode://341793ade41a145c1987d2ade...")
+admin.peers
+
+
+miner.setEtherbase(eth.accounts[0])
+
+eth.sendTransaction({from: eth.accounts[0], to: "<wallet address on other node>", value: 20})
+
+
+miner.start()
+miner.stop()
