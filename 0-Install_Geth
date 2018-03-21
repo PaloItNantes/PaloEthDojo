@@ -1,0 +1,21 @@
+# Ubuntu
+
+sudo apt-get install software-properties-common
+sudo add-apt-repository -y ppa:ethereum/ethereum
+sudo apt-get update
+sudo apt-get install ethereum
+
+# Mac
+
+brew tap ethereum/ethereum
+brew install ethereum
+
+# Arch
+
+pacman -S geth
+
+# Other Unix / Linux (need Go and C compilers)
+
+git clone https://github.com/ethereum/go-ethereum
+cd go-ethereum
+make geth
